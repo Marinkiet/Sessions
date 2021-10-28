@@ -1,0 +1,60 @@
+.aurora-outer {
+    background: linear-gradient(45deg, #ff72c9 0%, #78f8d2 50%, #faa18b 100%);
+    background-size: 400%;
+    animation: aurora 10s infinite;
+}
+
+.aurora-inner {
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15));
+    background-size: 400%;
+    animation: aurora 10s infinite;
+}
+
+@keyframes aurora {
+    0% {
+        background-position: left top;
+    }
+    25% {
+        background-position: right top;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+
+div {
+    display: block;
+    height: 600px;
+    width: 1350px;
+    position: relative;
+}
+
+.title {
+   
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    transform: translateY(-50%);
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+.title2 {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    transform: translateY(-50%);
+    font-size: 32px;
+    text-align: center;
+    color: whitesmoke;
+}
