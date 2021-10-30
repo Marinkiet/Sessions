@@ -4,14 +4,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
 -->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        include 'index.html';
-        include 'style.css';
-        ?>
-    </body>
+    
+    <?php include 'templates/header.php' ;?>
+    <?php include 'templates/footer.php' ;?>
+  </body>
 </html>
